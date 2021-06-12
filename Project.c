@@ -8,8 +8,13 @@ int main()
 {
   int h, m, s;
   int d=1000;
-  printf("set time:\n");
-  scanf("%d%d%d",&h,&m,&s);
+  printf("Set time:\n");
+  printf("Enter hour:\n");
+  scanf("%d",&h);
+  printf("Enter minute:\n");
+  scanf("%d",&m);
+  printf("Enter second:");
+  scanf("%d",&s);
   if(h>12||m>60||s>60)
   {
     printf("error! \n");
